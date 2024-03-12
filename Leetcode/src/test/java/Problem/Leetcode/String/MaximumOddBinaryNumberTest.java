@@ -18,7 +18,7 @@ public class MaximumOddBinaryNumberTest {
 		String actual1 = testObject.maximumOddBinaryNumber(input1);
 		// Compare with expected output
 		assertEquals(expected1, actual1);
-		//I try to test this case assertEquals line showing an error but the code is working fine 
+		//I try to test this case assertEquals line      showing an error but the code is working fine 
 		// Test case input
 		String input2 = "10101";
 		// Expected output
