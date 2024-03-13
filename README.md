@@ -12,6 +12,8 @@ Connect with me via
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abishekprabhu/)
 
 - **1. [LeetCode](https://github.com/abishekprabhu/JavaPrograms/tree/main/Leetcode/src/main/java/Problem/Leetcode)**
+- **2. [GeeksForGeeks](https://auth.geeksforgeeks.org/user/abishekprabhu)**
+- 
 
 ## LeetCode
 
@@ -31,5 +33,9 @@ Connect with me via
 | 2    | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)                                                                                                       | [Solution](https://github.com/abishekprabhu/JavaPrograms/blob/main/Leetcode/src/main/java/Problem/Leetcode/list/AddTwoNumbers.java)                                          | Medium     | Linked List                                 |
 | 1    | [Two Sum](https://leetcode.com/problems/two-sum/)                                                                                                                       | [Solution](https://github.com/abishekprabhu/JavaPrograms/blob/main/Leetcode/src/main/java/Problem/Leetcode/array/TwoSum.java)                                                | Easy       | Array                                       |
 
+Print matrix in diagonal pattern
+## GeeksForGeeks
 
-
+|  #   |  Title  | Solutions |
+|:-----|:--------:|------:|
+|      | [Print matrix in diagonal pattern](https://www.geeksforgeeks.org/problems/print-matrix-in-diagonal-pattern/1) | [Solution](https://github.com/abishekprabhu/JavaPrograms/blob/main/GeeksForGeeks/src/DailyChallenges/PrintMatrixInDaigonalPattern.java)  |
