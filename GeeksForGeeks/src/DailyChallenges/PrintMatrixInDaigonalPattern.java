@@ -3,7 +3,7 @@ package DailyChallenges;
 import java.util.Arrays;
 
 public class PrintMatrixInDaigonalPattern {
-	 public static int[] findDiagonalOrder(int[][] matrix) {
+	 public static int[] findDiagonalOrder(int[][] mat) {
 	        //check matrix is empty
 	        if(mat == null || mat[0].length == 0 || mat.length == 0)
 	            return new int[0];
