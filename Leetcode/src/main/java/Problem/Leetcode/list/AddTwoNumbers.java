@@ -13,7 +13,6 @@ public class AddTwoNumbers {
 			return l1;
 		}
 		//Dummy node previous to the head node 
-		
 		ListNode dummy = new ListNode(-1);
 		
 		ListNode temp = dummy;
