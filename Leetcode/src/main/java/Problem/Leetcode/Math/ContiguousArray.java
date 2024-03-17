@@ -1,3 +1,6 @@
+package Problem.Leetcode.Math;
+import java.util.HashMap;
+
 class ContiguousArray {
     public int findMaxLength(int[] nums) {
         int count = 0;
