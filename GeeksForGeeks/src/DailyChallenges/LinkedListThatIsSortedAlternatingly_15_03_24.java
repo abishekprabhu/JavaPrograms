@@ -1,19 +1,18 @@
 package DailyChallenges;
-
 import java.util.Scanner;
 
-class Node {
+class ListNode {
     int data;
-    Node next;
+    ListNode next;
     
-    public Node (int data){
+    public ListNode (int data){
         this.data = data;
         this.next = null;
     }
 }
 public class LinkedListThatIsSortedAlternatingly_15_03_24 {
 	
-	 static void printList(Node node) 
+	 static void printList(ListNode node) 
 		{ 
 			while (node != null) 
 			{ 
@@ -28,11 +27,11 @@ public class LinkedListThatIsSortedAlternatingly_15_03_24 {
 			while(t-- > 0){
 			    int n = sc.nextInt();
 			    
-			    Node head = new Node(sc.nextInt());
-			    Node tail = head;
+			    ListNode head = new ListNode(sc.nextInt());
+			    ListNode tail = head;
 			    
 			    for(int i=1; i<n; i++){
-			        tail.next = new Node(sc.nextInt());
+			        tail.next = new ListNode(sc.nextInt());
 			        tail = tail.next;
 			    }
 			    Solution obj = new Solution();
@@ -43,14 +42,14 @@ public class LinkedListThatIsSortedAlternatingly_15_03_24 {
 }
 class Solution {
     
-    public Node sort(Node head){
+    public ListNode sort(ListNode head){
         if (head == null || head.next == null) {
             return head; // If the list is empty or has only one node, it's already sorted
         }
         
         // Initialize pointers for ascending and descending sublists
-        Node ascHead = null, ascTail = null;
-        Node descHead = null, descTail = null;
+        ListNode ascHead = null, ascTail = null;
+        ListNode descHead = null, descTail = null;
         
         // Traverse the list and separate into alternating ascending and descending sublists
         while (head != null) {
@@ -87,11 +86,11 @@ class Solution {
     }
     
     // Helper method to reverse a linked list
-    private Node reverseList(Node head) {
-        Node prev = null;
-        Node curr = head;
+    private ListNode reverseList(ListNode head) {
+        ListNode prev = null;
+        ListNode curr = head;
         while (curr != null) {
-            Node nextNode = curr.next;
+            ListNode nextNode = curr.next;
             curr.next = prev;
             prev = curr;
             curr = nextNode;
@@ -100,9 +99,9 @@ class Solution {
     }
     
     // Helper method to merge two sorted linked lists
-    private Node mergeLists(Node list1, Node list2) {
-        Node dummy = new Node(0);
-        Node current = dummy;
+    private ListNode mergeLists(ListNode list1, ListNode list2) {
+        ListNode dummy = new ListNode(0);
+        ListNode current = dummy;
         
         while (list1 != null && list2 != null) {
             if (list1.data < list2.data) {
