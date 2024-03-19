@@ -128,3 +128,7 @@ class  LevelOrderTraversalSolution{
         return ans;
     }
 }
+
+//Output: 
+//	1 3 2 
+//	1 2 3 4 6 5 7 
