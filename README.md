@@ -44,5 +44,6 @@ Connect with me via
 |  3    | [Linked List that is Sorted Alternatingly](https://www.geeksforgeeks.org/problems/linked-list-that-is-sorted-alternatingly/1) | [Solution](https://github.com/abishekprabhu/JavaPrograms/blob/main/GeeksForGeeks/src/DailyChallenges/LinkedListThatIsSortedAlternatingly_15_03_24.java)  |
 |  4    | [Level order traversal](https://www.geeksforgeeks.org/problems/level-order-traversal/1) | [Solution](https://github.com/abishekprabhu/JavaPrograms/blob/main/GeeksForGeeks/src/DailyChallenges/LevelOrderTraversal_18_03_24.java)  |
 |  5    | [Sum of nodes on the longest path from root to leaf node](https://www.geeksforgeeks.org/problems/sum-of-the-longest-bloodline-of-a-tree/1) | [Solution](https://github.com/abishekprabhu/JavaPrograms/blob/main/GeeksForGeeks/src/DailyChallenges/SumOfNodesOnTheLongestPathFromRootToLeafNode.java)  |
+|  6    | [ZigZag Tree Traversal](https://www.geeksforgeeks.org/problems/zigzag-tree-traversal/1) | [Solution](https://github.com/abishekprabhu/JavaPrograms/blob/main/GeeksForGeeks/src/DailyChallenges/ZigZagTreeTraversal.java)  |
 
 
